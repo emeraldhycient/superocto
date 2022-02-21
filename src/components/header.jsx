@@ -61,7 +61,7 @@ function Header() {
                   href="/"
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToAnchor("#features");
+                    scrollToAnchor("#allFeatures");
                   }}
                 >
                   FEATURES
@@ -85,10 +85,10 @@ function Header() {
                   href="/"
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToAnchor("#reviews");
+                    scrollToAnchor("#gettingstarted");
                   }}
                 >
-                  REVIEWS
+                  STEPS
                 </a>
               </li>
               <li className="nav-item">

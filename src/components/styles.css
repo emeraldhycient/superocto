@@ -1,5 +1,177 @@
 .hero {
     height: 78vh;
     width: 100%;
-    background-color: aqua;
+    background-color: #24afef;
+    background-image: url(../images/herobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.hero_list {
+    list-style-type: none;
+}
+
+.hero_list li {
+    display: flex;
+    align-items: center
+}
+
+#advantages {
+    height: 90vh;
+    background-color: #24afef;
+    padding-top: 60px
+}
+
+.allFeatures {
+    height: 100vh;
+    padding-top: 60px
+}
+
+.circle {
+    border: 1px solid rgb(0, 247, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 1px;
+    background-color: rgb(0, 247, 255);
+    width: 80%
+}
+
+.circle_holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#compatibility {
+    height: 70vh;
+    padding: 20px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#compaheader {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+#subheader {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#compaq {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.faqcontainer {
+    height: fit-content;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.faqheader {
+    font-weight: 700;
+    font-size: 17px
+}
+
+.faqbody {
+    border-top: 1px solid #ccc;
+    margin-top: 7px;
+    padding-top: 7px;
+}
+
+#footer {
+    height: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.istockphoto.com/photos/courier-in-protective-mask-medical-gloves-delivers-takeaway-food-picture-id1218809014?b=1&k=20&m=1218809014&s=170667a&w=0&h=n_a3NOLbhMmjBbrZvo3nTALv7VaP9lGmH3Oz2IRwwEU=");
+}
+
+.con {
+    background-color: rgba(0, 0, 0, .95);
+    height: fit-content;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.bottom-part {
+    background-color: rgba(0, 0, 0, .95);
+    height: 70px;
+    width: 100%;
+}
+
+@media (max-width:760px) {
+    .hero {
+        height: fit-content;
+        padding-bottom: 30px;
+        padding-top: 40px;
+        background-size: cover;
+    }
+    #advantages {
+        height: fit-content;
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+    .allFeatures {
+        height: fit-content;
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+    .line {
+        height: 200px;
+        background-color: rgb(0, 247, 255);
+        width: 1px
+    }
+    .circle_holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Steps {
+        display: flex;
+        align-items: center;
+    }
+    .faqcontainer {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 7px;
+    }
+    #footer {
+        height: fit-content;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://media.istockphoto.com/photos/courier-in-protective-mask-medical-gloves-delivers-takeaway-food-picture-id1218809014?b=1&k=20&m=1218809014&s=170667a&w=0&h=n_a3NOLbhMmjBbrZvo3nTALv7VaP9lGmH3Oz2IRwwEU=");
+    }
+    .con {
+        background-color: rgba(0, 0, 0, .95);
+        height: fit-content;
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
 }
