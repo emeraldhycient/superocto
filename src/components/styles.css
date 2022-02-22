@@ -122,7 +122,12 @@
     width: 100%;
 }
 
-@media (max-width:760px) {
+.flex {
+    display: flex;
+    align-items: center
+}
+
+@media (max-width:769px) {
     .hero {
         height: fit-content;
         padding-bottom: 30px;
@@ -173,5 +178,8 @@
         width: 100%;
         padding-top: 60px;
         padding-bottom: 20px;
+    }
+    .flex {
+        display: none;
     }
 }

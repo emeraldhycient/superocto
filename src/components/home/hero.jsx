@@ -16,7 +16,7 @@ function Hero() {
               inappropriate & violent content, and other online dangers. Keep an
               eye on all of your partner's phone activities wherever you are!
             </p>
-            <div className="d-flex align-items-center d-none d-md-flex d-lg-flex">
+            <div className="flex " id="dontshow">
               <button className="btn btn-info btn-lg col-md-6 col-9 m-2">
                 <a
                   href="/prices"
